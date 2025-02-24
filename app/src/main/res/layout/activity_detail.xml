@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".ActivityDetail">
+
+    <EditText
+        android:id="@+id/edtUpdateTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline12"
+        app:layout_constraintTop_toBottomOf="@id/guideline9" />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="start"
+        app:layout_constraintTop_toBottomOf="@id/edtUpdateTitle"
+        app:layout_constraintBottom_toTopOf="@id/edtDesUd"
+        app:layout_constraintStart_toStartOf="@id/guideline12"
+        app:layout_constraintEnd_toEndOf="@id/guideline11"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/white"
+        android:text="18/2"/>
+
+
+    <EditText
+        android:id="@+id/edtDesUd"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="top"
+        android:hint="Description"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/guideline10"
+        app:layout_constraintEnd_toEndOf="@id/guideline11"
+        app:layout_constraintStart_toStartOf="@id/guideline12"
+        app:layout_constraintTop_toBottomOf="@id/edtUpdateTitle"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/ivDoneUpdate"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_check"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guideline11" />
+
+    <ImageView
+        android:id="@+id/ivBackUpdate"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_back_to_main"
+        app:layout_constraintBottom_toTopOf="@id/guideline9"
+        app:layout_constraintStart_toEndOf="@id/guideline12" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.96" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.06"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
