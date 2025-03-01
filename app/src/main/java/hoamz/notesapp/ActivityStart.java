@@ -1,4 +1,4 @@
-package com.example.notesapp;
+package hoamz.notesapp;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -10,7 +10,8 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
-import com.example.notesapp.databinding.ActivityStartBinding;
+import com.hoamz.notesapp.databinding.ActivityStartBinding;
+
 
 public class ActivityStart extends AppCompatActivity {
 

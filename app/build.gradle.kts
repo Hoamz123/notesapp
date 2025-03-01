@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.notesapp"
+    namespace = "com.hoamz.notesapp"
     compileSdk = 35
 
     viewBinding {
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.notesapp"
+        applicationId = "com.hoamz.notesapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

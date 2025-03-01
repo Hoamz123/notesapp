@@ -1,4 +1,4 @@
-package com.example.notesapp;
+package hoamz.notesapp;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -11,7 +11,8 @@ import androidx.appcompat.app.AppCompatDelegate;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.GridLayoutManager;
 
-import com.example.notesapp.databinding.ActivityMainBinding;
+
+import com.hoamz.notesapp.databinding.ActivityMainBinding;
 
 import java.util.ArrayList;
 import java.util.List;

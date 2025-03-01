@@ -1,4 +1,4 @@
-package com.example.notesapp;
+package hoamz.notesapp;
 
 import java.io.Serializable;
 

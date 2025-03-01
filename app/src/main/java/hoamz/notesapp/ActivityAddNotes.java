@@ -1,15 +1,14 @@
-package com.example.notesapp;
+package hoamz.notesapp;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.widget.Toast;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
-import com.example.notesapp.databinding.ActivityAddNotesBinding;
+import com.hoamz.notesapp.databinding.ActivityAddNotesBinding;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

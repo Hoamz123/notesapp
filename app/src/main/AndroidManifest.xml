@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,19 +11,19 @@
         android:theme="@style/Theme.NotesApp"
         tools:targetApi="31">
         <activity
-            android:name=".ActivityDetail"
+            android:name="hoamz.notesapp.ActivityDetail"
             android:exported="false" />
         <activity
-            android:name=".ActivityAddNotes"
+            android:name="hoamz.notesapp.ActivityAddNotes"
             android:exported="false"
             android:noHistory="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="hoamz.notesapp.MainActivity"
             android:exported="false"
             android:launchMode="singleTop"
             android:noHistory="false" />
         <activity
-            android:name=".ActivityStart"
+            android:name="hoamz.notesapp.ActivityStart"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
