@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardNote"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        android:padding="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="5dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvTitle_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="4dp"
+                android:background="@color/white"
+                android:layout_marginTop="8dp"
+                android:text="Title"
+                android:ellipsize="end"
+                android:paddingTop="10dp"
+                android:textSize="25sp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTitle_note"
+                android:text="@string/app_name"
+                android:textSize="18sp"
+                android:paddingStart="6dp"
+                android:paddingEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:maxLines="20"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_below="@id/tv_content"
+                android:layout_marginEnd="8dp"
+                android:background="@color/white"
+                android:layout_marginTop="8dp"
+                android:text="dd-mm-yy"
+                android:drawablePadding="6dp"
+                android:ellipsize="end"
+                android:drawableStart="@drawable/baseline_calendar_today_24"
+                android:paddingTop="10dp"
+                android:paddingStart="10dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:paddingBottom="8dp" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+</RelativeLayout>
