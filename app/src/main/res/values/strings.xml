@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">NotesApp</string>
     <string name="desDemo">protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); EdgeToEdge.enable(this); setContentView(R.layout.custom_sheet); }</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
